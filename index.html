@@ -76,6 +76,9 @@
             <label for="rollno">Roll No</label>
             <input type="text" id="rollno" name="rollno" required>
 
+            <label for="semester">Semester</label>
+            <input type="number" id="semester" name="semester" required>
+
             <label for="name">Name</label>
             <input type="text" id="name" name="name" required>
             
@@ -87,7 +90,7 @@
     </div>
 
     <script>
-        const scriptURL = 'https://script.google.com/macros/s/AKfycbzhdWk5qn5-VeAVviB90cZA4QEUtpFhRTRe8u09MD_ijjpY-je1PS95BqvE1D-aoDEzIw/exec';
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzlL_tKxeK60d3jnJEOo4wORxAmp-hb67mtOlxkaj4l-58hjBfAcOcmJSB2oydM8ORBYA/exec';
         const form = document.forms['google-sheet'];
 
         form.addEventListener('submit', e => {
